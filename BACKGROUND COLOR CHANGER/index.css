@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main
+{   min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1
+{
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(101, 98, 95);
+    color: rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+button
+{
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition-property:all ;
+    transition-duration: .2s;
+    font-size: 1rem;
+}
+button:hover
+{
+    background-color:rgb(145, 145, 134) ;
+    color: white;
+    box-sizing: border-box;
+   }
